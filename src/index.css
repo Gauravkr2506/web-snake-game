@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body,#root {
+  height: 100%;
+  background-color: #e6e6ff;
+}
+
+.game-area{
+  position: relative;
+  margin: 10px auto;
+  width:500px;
+  height: 500px;
+  border: 10px solid #b82e2e;
+  background-color:#ffcf91;
+
+}
+
+.snake-dot{
+position: absolute;
+width: 2%;
+height: 2%;
+background-color: green;
+border: 1px solid #fff;
+z-index: 2;
+}
+
+.snake-food{
+  position: absolute;
+width: 2%;
+height: 2%;
+background-color: #f00;
+border: 1px solid #fff;
+z-index: 1;
+}
+
