@@ -18,9 +18,7 @@ export default class App extends Component {
       snake_1: "",
       snake_2: "",
     };
-    this.snake_game = io.connect(
-      "https://node-snake-game-server-new.herokuapp.com/games"
-    );
+    this.snake_game = io.connect("https://socket-game-app.herokuapp.com/games");
   }
 
   componentDidMount() {
